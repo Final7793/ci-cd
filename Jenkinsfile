@@ -5,7 +5,7 @@ pipeline {
      stage ('BUILD') {
         steps {
           sh 'ls -lrt'
-            sh 'ps -ef'
+            sh 'ps -ef | grep "jenkins"'
      }
    }
    }
