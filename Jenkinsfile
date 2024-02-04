@@ -6,6 +6,7 @@ pipeline {
         steps {
           sh 'ls -lrt'
             sh 'ps -ef | grep "jenkins"'
+            
      }
    }
    }
