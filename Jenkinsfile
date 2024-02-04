@@ -4,7 +4,8 @@ pipeline {
    stages {
      stage ('BUILD') {
         steps {
-          sh 'ls -lrt' 'pwd'
+          sh 'ls -lrt'
+            sh 'ps -ef'
      }
    }
    }
